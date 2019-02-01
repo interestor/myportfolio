@@ -1,0 +1,101 @@
+
+
+body{
+margin:0;
+padding:0;
+}
+
+p{
+  word-wrap: break-word;
+  width:60%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+nav{
+  display:none;
+}
+
+h1{
+  margin:10px 10px;
+  padding:20px;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+input{
+  background-color:#CDDC39;
+  font-weight: bold;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #2121215;
+  border-radius:30px;
+  margin: 30px;
+  border: none;
+}
+
+
+.contents_box{
+  text-align:center;
+  margin:0;
+  padding:0;
+  positon:relative;
+  font-family: font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-size:16px;
+}
+
+.vision{
+  margin:0 auto;
+  background-color:#7B1FA2;
+  color:#FFFFFF;
+}
+
+.about img{
+  width: 300px;
+  border-radius: 300px;
+}
+
+
+dt{
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  margin: 20px;
+}
+dd{
+  margin:20px;
+  text-align:left;
+}
+
+.works{
+  margin:50px 0px;
+  background-color:#E1BEE7;
+}
+
+.flexcontainer{
+  /* max-width:1200px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.work{
+  max-width:400px;
+  padding: 20px;
+}
+
+.work img{
+  width: 300px;
+  border-radius:3px;
+}
+
+.hidden{
+  display:none;
+}
+
+.contact{
+  background-color:#7B1FA2;
+  color:#FFFFFF;
+}
