@@ -10,6 +10,7 @@ p{
   width:60%;
   max-width: 800px;
   margin: 20px auto;
+  font-size:16px;
 }
 
 nav{
@@ -17,22 +18,32 @@ nav{
 }
 
 h1{
-  margin:10px 10px;
+  margin: 0;
   padding:20px;
   font-family: chippewa-falls, sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
+h2{
+  margin: 10px;
+  font-size:18px;
+}
+
 input{
   background-color:#CDDC39;
   font-weight: bold;
+  font-size:20px;
   padding: 10px 40px;
   text-decoration: none;
-  color: #2121215;
+  color: #FFFFFF;
   border-radius:30px;
   margin: 30px;
   border: none;
+}
+
+input:hover{
+  background-color:#FFFFFF;
 }
 
 
@@ -41,7 +52,7 @@ input{
   margin:0;
   padding:0;
   positon:relative;
-  font-family: font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
   font-size:16px;
 }
 
@@ -49,11 +60,41 @@ input{
   margin:0 auto;
   background-color:#7B1FA2;
   color:#FFFFFF;
+  padding-bottom: 30px;
 }
 
 .about img{
   width: 300px;
   border-radius: 300px;
+}
+
+.planer{
+  background-color:#7B1FA2;
+  color:#FFFFFF;
+}
+
+.circle{
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background: #CDDC39;
+}
+
+.traiangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 0 100px 173.2px 100px;
+  border-color: transparent transparent #CDDC39 transparent;
+  margin: 10px 20px;
+}
+
+.square {
+   width: 170px;
+   height: 170px;
+   background: #CDDC39;
+   margin: 10px 20px;
 }
 
 
@@ -69,8 +110,10 @@ dd{
   text-align:left;
 }
 
+
+
 .works{
-  margin:50px 0px;
+  padding: 20px;
   background-color:#E1BEE7;
 }
 
@@ -79,23 +122,51 @@ dd{
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  padding-top:30px;
+  padding-bottom: 30px;
 }
 
 .work{
   max-width:400px;
-  padding: 20px;
+  padding:10px 20px;
 }
 
 .work img{
-  width: 300px;
+  width: 200px;
   border-radius:3px;
+}
+
+.work li{
+  text-align:left;
+  list-style-type: none;
+  font-weight: bold;
+  display:none;/*なんか微妙なので一旦消しておく*/
+}
+
+.work p{
+  margin:10px 0;
+  width:80%;
+  text-align:left;
 }
 
 .hidden{
   display:none;
 }
 
+i{
+  margin:20px;
+  color: #E1BEE7;
+}
+
+i:hover{
+  color:#FFFFFF;
+}
+
+
 .contact{
   background-color:#7B1FA2;
   color:#FFFFFF;
+  padding: 20px;
 }
+
+/* paddinはもうちょっとまとめられるはず */
