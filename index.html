@@ -44,7 +44,7 @@
       <div class="about">
         <h1>About</h1>
         <img src="image/murasaki.jpg" width="400" alt="mursaki">
-        <p>むらさき（Saki Tomine）</p>
+        <p><span class="emphasis">むらさき（Saki Tomine）</span></p>
         <p>
           大手地図会社に入社、営業を経て社長付け企画室や事業企画部で新規事業・新規商品の企画を行う。退職後ものづくりの世界的講座FabAcademyを卒業、Fabmasterとなり、Fablab北加賀屋のインターンを経験。現在はフリーランスとして、企画・デザイン・ライティングなどを請け負いながら、farmtory-labというコミュニティ活動を立ち上げる。
         </p>
@@ -52,16 +52,22 @@
           <dt>
             Skills
           </dt>
-          <dd class="hidden">
-            イラストレーション(AdobeIllustrator)/デジタルファブリケーション(3Dプリント・レーザーカッター・CNC・Arduino・eagle等)/CAD(fusion360・Rhinoceros・blender・Meshmixer等)/ライティング/ファシリテーション
+          <dd>
+            <span class="emphasis">2D/3Dデザイン</span> : AdobeIllustrator・fusion360・Rhinoceros・blender・Meshmixer等
+          </dd>
+          <dd>
+            <span class="emphasis">デジタルファブリケーション</span> : 3Dプリント・レーザーカッター・CNC・Arduino・eagle等
+          </dd>
+          <dd>
+            <span class="emphasis">その他</span> : ライティング / ワークショップ / ファシリテーション
           </dd>
           <dt>
             Awards
           </dt>
-          <dd class="hidden">
-            ゼンリン在職中 新入社員特別賞/社長賞特別賞/本部長賞
+          <dd >
+            在職中：新入社員特別賞 / 社長賞特別賞 / 本部長賞
           </dd>
-          <dd class="hidden">
+          <dd >
             OpendataChallenge2014 datavisualize部門最優秀賞
           </dd>
         </dl>
@@ -176,7 +182,7 @@
               </li>
             </ul>
             <p>
-              地図とデータで遊ぶ3人チーム。交通費変形地図はネットで話題になり3万pv/日を記録。いきものみっけはODCのビジュアライズ部門最優秀賞を受賞。
+              地図とデータで遊ぶ3人チーム。交通費変形地図はネットで話題になりテレビ等でも取り上げられる。いきものみっけはODCのビジュアライズ部門最優秀賞を受賞。
             </p>
           </div>
         </div>
@@ -211,6 +217,7 @@
       <form>
         <input type="button" value="問い合わせフォーム" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfb9ka9zIwOKc7x-sT5wA5W9tUtijUHuwJNJ5_xhOFYGq9FiA/viewform?usp=sf_link')">
       </form>
+      <h2>find me on sosial media</h2>
       <div class="flexcontainer">
         <a href="https://www.facebook.com/saki.murata.75">
           <i class="fab fa-facebook-square fa-2x"></i>
@@ -218,13 +225,22 @@
         <a href="http://interestor2012.hatenablog.com/">
           <i class="fas fa-pen-nib fa-2x"></i>
         </a>
-
       </div>
-
-
+    </section>
   </div>
   <!-- サービスを入れる -->
-  <!-- ソーシャルメディアをいれる -->
+  <script>
+  'use strict';
+  const open = document.getElementById('open');
+  const skills =document.getElementById('skills')
+
+  open.addEventListener('click',function(){
+    skills.className = 'open';
+  });
+
+
+
+  </script>
 
 
 </body>
