@@ -45,6 +45,7 @@ input{
 input:hover{
   background-color:#FFFFFF;
   cursor: pointer;
+  color: #E1BEE7;
 }
 
 .emphasis{
@@ -61,6 +62,7 @@ input:hover{
   font-size:16px;
 }
 
+
 .vision{
   margin:0 auto;
   background-color:#7B1FA2;
@@ -72,6 +74,8 @@ input:hover{
   width: 300px;
   border-radius: 300px;
 }
+
+
 
 .planer{
   background-color:#E1BEE7;
@@ -161,6 +165,21 @@ dd{
   margin:10px auto;
   width:80%;
   text-align:left;
+}
+
+.farmtory-lab{
+  padding-top:30px;
+  padding-bottom: 20px;
+  background-color:#dce775;
+}
+.farmtory-lab img{
+    border-radius:3px;
+    margin: 20px;
+}
+
+.farmtory-lab :hover img{
+ opacity: 0.8;
+
 }
 
 .hidden{
